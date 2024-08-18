@@ -6,7 +6,7 @@ function PictureText() {
         <div className={"pictureWrapper"}>
 
             <img className="mePicture"
-                 src="/Kishan.jpg"
+                 src="Kishan.jpg"
                  alt="Kishan Thakurani"
             />
             <div className="mePicture-text">
