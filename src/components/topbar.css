@@ -1,0 +1,22 @@
+.topBar-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.topBar-header {
+    color: white;
+    font-family: 'Open Sans', serif;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+}
+
+.darkToggle {
+}
+
+.white-content .topBar-header {
+    color: black;
+}

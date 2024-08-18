@@ -1,0 +1,161 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #1A1A1A;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.white-content .card1 {
+    background-color: white;
+    color: black;
+}
+
+.phone {
+    margin-top: .5em;
+    margin-left: .35em;
+    color: #27b41d;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #1A1A1A;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.white-content .card2 {
+    background-color: white;
+    color: black;
+}
+
+.email {
+    margin-top: .5em;
+    margin-left: -.35em;
+    color: #bb201d;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #1A1A1A;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.white-content .card3 {
+    background-color: white;
+    color: black;
+}
+
+.linkedin {
+    color: #0E76A8;
+    margin-top: -.9em;
+    margin-left: .35em;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #1A1A1A;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.white-content .card4 {
+    background-color: white;
+    color: black;
+}
+
+.discord {
+    margin-top: -.9em;
+    margin-left: -.35em;
+    color: #7289DA;
+}
+
+.card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #27b41d;
+}
+
+.card1:hover .phone {
+    color: #1A1A1A;
+}
+
+.white-content .card1:hover .phone {
+    color: white;
+}
+
+.card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #bb201d;
+}
+
+.card2:hover .email {
+    color: #1A1A1A;
+}
+
+.white-content .card2:hover .email {
+    color: white;
+}
+
+.card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0E76A8;
+}
+
+.card3:hover .linkedin {
+    color: #1A1A1A;
+}
+
+.white-content .card3:hover .linkedin {
+    color: white;
+}
+
+.card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+    color: #1A1A1A;
+}
+
+.white-content .card4:hover .discord {
+    color: white;
+}

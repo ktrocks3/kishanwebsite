@@ -1,0 +1,53 @@
+.mePicture {
+    width: 85%;
+    height: 600px;
+    border-radius: 24px 24px 24px 24px;
+    object-fit: cover;
+    left: 15%;
+    position: relative;
+    overflow: hidden;
+}
+
+.mePicture-text {
+    position: absolute;
+    top: 12%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.3s ease;
+    width: 60%;
+}
+
+.white-content .mePicture-text {
+    color: black;
+
+}
+
+.white-content .mePicture {
+    width: 60%;
+    left: 40%
+}
+
+.pictureWrapper {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .mePicture-text {
+        position: static;
+        transform: translate(0, 0);
+        width: 100%;
+    }
+
+    .mePicture {
+        left:0;
+        width: 100%;
+    }
+
+    .white-content .mePicture {
+        width: 100%;
+        left: 0;
+    }
+}

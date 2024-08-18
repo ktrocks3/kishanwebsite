@@ -1,0 +1,73 @@
+.contactContainer {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.white-content .contactContainer {
+    color: black;
+}
+
+.link {
+    color: white;
+}
+
+.white-content .link {
+    color: black;
+}
+.contactLeft {
+    padding: 2%;
+    margin: 20px;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #1a1a1a;
+    max-width: 50%;
+}
+
+.white-content .contactLeft {
+    background-color: #F1F1F1;
+    color: black;
+}
+
+.contactRight {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding-right: 2.5%;
+}
+
+.bigScreen {
+    display: inline-block;
+}
+
+.smallScreen {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactLeft {
+        max-width: 100%;
+        margin: 20px 20px 0 20px;
+    }
+
+    .contactRight {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .bigScreen {
+        display: none;
+    }
+
+    .smallScreen {
+        display: inline-block;
+    }
+}
