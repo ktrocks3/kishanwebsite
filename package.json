@@ -1,7 +1,7 @@
 {
   "name": "kishansite",
   "version": "0.1.0",
-  "homepage": "https://kishant.nl",
+  "homepage": "http://kishant.nl",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
